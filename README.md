@@ -1,6 +1,6 @@
 # npmtest-grunt-ts
 
-#### test coverage for  [grunt-ts (v5.5.1)](https://github.com/TypeStrong/grunt-ts)  [![npm package](https://img.shields.io/npm/v/npmtest-grunt-ts.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-grunt-ts) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-grunt-ts.svg)](https://travis-ci.org/npmtest/node-npmtest-grunt-ts)
+#### basic test coverage for  [grunt-ts (v5.5.1)](https://github.com/TypeStrong/grunt-ts)  [![npm package](https://img.shields.io/npm/v/npmtest-grunt-ts.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-grunt-ts) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-grunt-ts.svg)](https://travis-ci.org/npmtest/node-npmtest-grunt-ts)
 
 #### Compile and manage your TypeScript project
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-grunt-ts/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-grunt-ts/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-grunt-ts/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-grunt-ts/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-grunt-ts/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-grunt-ts/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-grunt-ts/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-grunt-ts/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-grunt-ts/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-grunt-ts/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-grunt-ts/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-grunt-ts/build/coverage.html/index.html)
 
@@ -132,7 +132,8 @@
     "scripts": {
         "test": "grunt test"
     },
-    "version": "5.5.1"
+    "version": "5.5.1",
+    "bin": {}
 }
 ```
 
